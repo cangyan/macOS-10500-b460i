@@ -40,9 +40,11 @@
 			</dict>
 		</array>
 		<key>Delete</key>
-		<array/>
+		<array>
+		</array>
 		<key>Patch</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -62,9 +64,11 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
-		<array/>
+		<array>
+		</array>
 		<key>Patch</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AllowRelocationBlock</key>
@@ -113,37 +117,63 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>AACbPg==</data>
-				<key>device-id</key>
-				<data>mz4AAA==</data>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-pipe</key>
-				<data>EgAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>EgAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
-				<key>igfxfw</key>
-				<data>AgAAAA==</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>device-id</key>
-				<data>cKEAAA==</data>
+				<data>
+				cKEAAA==
+				</data>
 				<key>layout-id</key>
-				<data>CwAAAA==</data>
+				<data>
+				CwAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				AACbPg==
+				</data>
+				<key>device-id</key>
+				<data>
+				mz4AAA==
+				</data>
+				<key>enable-hdmi20</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con0-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con0-pipe</key>
+				<data>
+				EgAAAA==
+				</data>
+				<key>framebuffer-con1-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con1-pipe</key>
+				<data>
+				EgAAAA==
+				</data>
+				<key>framebuffer-con1-type</key>
+				<data>
+				AAgAAA==
+				</data>
+				<key>framebuffer-patch-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAgA==
+				</data>
+				<key>igfxfw</key>
+				<data>
+				AgAAAA==
+				</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -515,13 +545,16 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array/>
+		<array>
+		</array>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data></data>
+			<data>
+			</data>
 			<key>Cpuid1Mask</key>
-			<data></data>
+			<data>
+			</data>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>MaxKernel</key>
@@ -530,9 +563,11 @@
 			<string></string>
 		</dict>
 		<key>Force</key>
-		<array/>
+		<array>
+		</array>
 		<key>Patch</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -591,7 +626,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -684,9 +720,11 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
-			<data></data>
+			<data>
+			</data>
 			<key>PasswordSalt</key>
-			<data></data>
+			<data>
+			</data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
@@ -725,25 +763,37 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
+				<key>revcpu</key>
+				<integer>1</integer>
+				<key>revcpuname</key>
+				<string>Intel(R) Core(TM) i5-10500 CPU @ 3.10GHz</string>
 				<key>rtc-blacklist</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
+				<data>
+				Rg==
+				</data>
 				<key>boot-args</key>
 				<string>keepsyms=1 igfxonln=1 gfxrst=4 -cdfon -igfxcdc swd_panic=1 alcid=11</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>prev-lang:kbd</key>
-				<data></data>
+				<data>
+				</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -757,6 +807,8 @@
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<array>
 				<string>rtc-blacklist</string>
+				<string>revcpu</string>
+				<string>revcpuname</string>
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
@@ -809,14 +861,16 @@
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
-			<key>MaxBIOSVersion</key>
-			<false/>
 			<key>MLB</key>
 			<string>C02025802GUPHC1JC</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>ProcessorType</key>
-			<integer>4105</integer>
+			<integer>1537</integer>
 			<key>ROM</key>
-			<data>L+3Sdunf</data>
+			<data>
+			L+3Sdunf
+			</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -870,10 +924,10 @@
 			<integer>5</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
-			<key>PointerPollMin</key>
-			<integer>10</integer>
 			<key>PointerPollMax</key>
 			<integer>80</integer>
+			<key>PointerPollMin</key>
+			<integer>10</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
@@ -986,10 +1040,10 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
-			<key>UgaPassThrough</key>
-			<false/>
 			<key>UIScale</key>
 			<integer>0</integer>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
