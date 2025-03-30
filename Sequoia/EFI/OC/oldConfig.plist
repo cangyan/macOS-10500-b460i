@@ -73,6 +73,8 @@
                 <false/>
                 <key>AvoidRuntimeDefrag</key>
                 <true/>
+                <key>ClearTaskSwitchBit</key>
+                <false/>
                 <key>DevirtualiseMmio</key>
                 <true/>
                 <key>DisableSingleUser</key>
@@ -84,6 +86,8 @@
                 <key>EnableSafeModeSlide</key>
                 <true/>
                 <key>EnableWriteUnprotector</key>
+                <false/>
+                <key>FixupAppleEfiImages</key>
                 <false/>
                 <key>ForceBooterSignature</key>
                 <false/>
@@ -140,7 +144,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.8 | By RapidEFI</string>
+                    <string>V1.7.0 | By RapidEFI</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -158,7 +162,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.3 | By RapidEFI</string>
+                    <string>V1.3.5 | By RapidEFI</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -176,7 +180,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.7 | By RapidEFI</string>
+                    <string>V1.6.9 | By RapidEFI</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -194,7 +198,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.3 | By RapidEFI</string>
+                    <string>V1.3.5 | By RapidEFI</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -212,7 +216,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.3 | By RapidEFI</string>
+                    <string>V1.3.5 | By RapidEFI</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -230,7 +234,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.9.1 | By RapidEFI</string>
+                    <string>V1.9.4 | By RapidEFI</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -266,7 +270,7 @@
                     <key>BundlePath</key>
                     <string>NVMeFix.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.1 | By RapidEFI</string>
+                    <string>V1.1.2 | By RapidEFI</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -284,7 +288,7 @@
                     <key>BundlePath</key>
                     <string>HibernationFixup.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.1 | By RapidEFI</string>
+                    <string>V1.5.2 | By RapidEFI</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -374,7 +378,7 @@
                     <key>BundlePath</key>
                     <string>AMFIPass.kext</string>
                     <key>Comment</key>
-                    <string>V1.4.0 | By RapidEFI</string>
+                    <string>V1.4.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -382,7 +386,7 @@
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
-                    <string>18.0.0</string>
+                    <string></string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -601,6 +605,8 @@
                 <false/>
                 <key>DisableIoMapper</key>
                 <true/>
+                <key>DisableIoMapperMapping</key>
+                <false/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
@@ -658,6 +664,8 @@
                 <false/>
                 <key>HideAuxiliary</key>
                 <true/>
+                <key>InstanceIdentifier</key>
+                <string></string>
                 <key>LauncherOption</key>
                 <string>Disabled</string>
                 <key>LauncherPath</key>
@@ -833,7 +841,7 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>-v keepsyms=1 debug=0x100 alcid=11 agdpmod=pikera ipc_control_port_options=0 -amfipassbeta</string>
+                    <string>-v keepsyms=1 debug=0x100 alcid=11 agdpmod=pikera</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1081,16 +1089,22 @@
             <dict>
                 <key>ClearScreenOnModeSwitch</key>
                 <false/>
+                <key>ConsoleFont</key>
+                <string></string>
                 <key>ConsoleMode</key>
                 <string></string>
                 <key>DirectGopRendering</key>
                 <false/>
                 <key>ForceResolution</key>
                 <false/>
+                <key>GopBurstMode</key>
+                <false/>
                 <key>GopPassThrough</key>
                 <string>Disabled</string>
                 <key>IgnoreTextInGraphics</key>
                 <false/>
+                <key>InitialMode</key>
+                <string></string>
                 <key>ProvideConsoleGop</key>
                 <true/>
                 <key>ReconnectGraphicsOnConnect</key>
@@ -1146,6 +1160,8 @@
                 <false/>
                 <key>OSInfo</key>
                 <false/>
+                <key>PciIo</key>
+                <false/>
                 <key>UnicodeCollation</key>
                 <false/>
             </dict>
@@ -1175,12 +1191,18 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
+                <key>ResizeUsePciRbIo</key>
+                <false/>
+                <key>ShimRetainProtocol</key>
+                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
                 <false/>
             </dict>
             <key>ReservedMemory</key>
+            <array/>
+            <key>Unload</key>
             <array/>
         </dict>
     </dict>

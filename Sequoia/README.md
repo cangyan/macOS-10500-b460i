@@ -1,6 +1,9 @@
 # macOS-10500-b460i
-- opencore 1.0.1
+- opencore 1.0.4
 - ventura 15.0.1
+
+# changelog
+- 2025-03-30 更新opencore 1.0.4及kext
 
 ---
 ## 硬件
